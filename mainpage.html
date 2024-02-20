@@ -1,8 +1,50 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <p>
-            I just want to see if this displays
-        </p>
+
+        <div style="    /*this is the top banner*/
+            left: 0;
+            right: 0;
+            height:90px;
+            padding:15px; 
+            background-color: #000000; /*this is a comment stating that you can also just use 'grey' or any other basic color*/
+            color: #ffffff;
+            text-align:center;">
+            <h1> 
+                Test Banner 
+            </h1>
+        </div>
+
+        <div style="    /*this is the right banner*/
+            position:absolute; /* absolute makes it so that it is relative to the top left corner. fixed is no matter the resolution. relative is to the div itself.*/
+            margin-top:20px;
+            right:100px;
+            width:300px;
+            height:500px;
+            padding:15px;
+            background-color: #0000ff; /*this is a comment stating that you can also just use 'grey' or any other basic color*/
+            color: #ffffff;
+            text-align: center;">
+            <h3>
+                Test Banner 2
+            </h3>
+        </div>
+
+        <img src="../cookingpic1.webp" 
+            alt="stir fry"
+            style="
+            position:absolute;
+            margin-top:20px; 
+            width:500px;">
+
+        <img src="../cookingpic2.webp"
+            alt="lasagna in oven"
+            style="
+                position:absolute;
+                margin-top:560px;
+                right: 250px;
+                width:500px">
+
+        
     </body>
 </html>
