@@ -26,9 +26,11 @@ body{
 
 .QuickButton1{
     position:absolute;
-    margin-top:300px;
+    margin-top:20px;
     width:600px;
     height:200px;
+    background-color: #0000ff;
+    text-align: center; 
 }
 
 .StirFry{
