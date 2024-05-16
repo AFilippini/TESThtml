@@ -1,6 +1,6 @@
-function buttonClick() {
-    location.href('testpage1.html');
+function onButtonClick() {
+    alert('button clicked');
 }
 
 const button = document.querySelector('button');
-button.addEventListener('click', buttonClick);
+button.addEventListener('click', onButtonClick);

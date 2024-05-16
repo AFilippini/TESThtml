@@ -4,7 +4,7 @@ body{
     background-color: gray;
 }
 
-.TopBanner{
+.topBanner{
     left: 0;
     right: 0;
     height:90px;
@@ -14,7 +14,7 @@ body{
     text-align:center;
 }
 
-.SideBanner{
+.sideBanner{
     position:absolute;   /*absolute makes it so that it is relative to the top left corner. fixed is no matter the resolution. relative is to the div itself.*/
     margin-top:20px;
     right:100px;
@@ -26,7 +26,7 @@ body{
     text-align: center; 
 }
 
-.QuickButton1{
+button{
     position:absolute;
     margin-top:400px;
     left:100;
@@ -38,7 +38,7 @@ body{
     justify-content:center;
     align-items: center;
 }
-.QuickButton1:hover{
+button:hover{
     background-color: #ffffff;
     transition-duration: 400ms; /*go here when you want to play with transitions: https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration*/
 }
